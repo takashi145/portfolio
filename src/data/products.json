@@ -84,7 +84,7 @@
     "image": "images/selection-status.PNG",
     "name": "JobTracker(開発途中)",
     "description": "選考状況を視覚化するアプリです。\n自分の進捗を具体的に把握でき、達成感を得ることができます。",
-    "url": "https://job-tracker-sigma.vercel.app/event",
+    "url": "https://jobtracker-app.vercel.app/",
     "skills": [
       "Next.js", "Typescript", "Tailwind CSS"
     ]
