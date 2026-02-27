@@ -1,4 +1,13 @@
 :root {
+  --color: #1f2328;
+  --muted: #57606a;
+  --link: #0969da;
+  --border: #d0d7de;
+  --bg: #ffffff;
+  --surface: #f6f8fa;
+}
+
+[data-theme="dark"] {
   --color: #e6edf3;
   --muted: #7d8590;
   --link: #38bdf8;
@@ -9,7 +18,19 @@
 
 body { background: var(--bg); color: var(--color); }
 
-/* Back to top button */
+#theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--color);
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 100;
+}
+
 #to-top {
   position: fixed;
   bottom: 1.5rem;
