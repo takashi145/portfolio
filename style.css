@@ -1,0 +1,80 @@
+:root {
+  --color: #e6edf3;
+  --muted: #7d8590;
+  --link: #38bdf8;
+  --border: #30363d;
+  --bg: #0d1117;
+  --surface: #161b22;
+}
+
+body { background: var(--bg); color: var(--color); }
+
+/* Back to top button */
+#to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--color);
+  padding: 0.4rem 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+#content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: var(--color);
+  line-height: 1.7;
+}
+
+/* Headings */
+.lbs-heading-1 { font-size: 2em;   font-weight: 700; margin: 1.5em 0 0.5em; }
+.lbs-heading-2 { font-size: 1.5em; font-weight: 600; margin: 2.5em 0 0.6em; border-bottom: 1px solid var(--border); padding-bottom: 0.3em; }
+.lbs-heading-3 { font-size: 1.2em; font-weight: 600; margin: 1.3em 0 0.3em; }
+
+/* Paragraph / Inline */
+.lbs-paragraph { margin: 0.75em 0; }
+.lbs-strong    { font-weight: 700; }
+
+/* Image */
+.lbs-image { max-width: 100%; border-radius: 50%; }
+
+/* Header */
+.lbs-header { padding: 0.5rem 0; margin-bottom: 1rem; }
+.lbs-header .lbs-paragraph { margin: 0; font-size: 1.5em; font-weight: 700; letter-spacing: 0.05em; color: var(--color); }
+
+/* Link */
+a { color: var(--link); }
+a:hover { text-decoration: underline; }
+
+/* HR */
+.lbs-hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+
+/* List */
+.lbs-ul      { margin: 0.5em 0; padding-left: 1.8em; }
+.lbs-list-item { margin: 0.2em 0; }
+
+/* Silent table */
+.lbs-table-silent { width: 100%; }
+.lbs-table-silent thead { display: none; }
+.lbs-table-silent th,
+.lbs-table-silent td { border: none; background: none; vertical-align: middle; padding: 0 1.5rem 0 0; }
+.lbs-table-silent td:last-child { padding-right: 0; }
+
+/* Table */
+.lbs-table:not(.lbs-table-silent) { border-collapse: collapse; margin: 1em 0; }
+.lbs-table:not(.lbs-table-silent) th,
+.lbs-table:not(.lbs-table-silent) td { padding: 0.5em 1em; border: 1px solid var(--border); white-space: nowrap; }
+.lbs-table:not(.lbs-table-silent) thead th { background: var(--surface); }
+
+/* Details */
+.lbs-details { margin: 1em 0; border: 1px solid var(--border); border-radius: 6px; padding: 0.5em 1em; background: var(--surface); }
+.lbs-summary { cursor: pointer; font-weight: 600; }
+
+/* Footer */
+.lbs-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9em; }
