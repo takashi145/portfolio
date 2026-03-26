@@ -104,7 +104,7 @@ a:hover { text-decoration: underline; }
 /* Table */
 .lbs-table:not(.lbs-table-silent) { border-collapse: collapse; margin: 1em 0; }
 .lbs-table:not(.lbs-table-silent) th,
-.lbs-table:not(.lbs-table-silent) td { padding: 0.5em 1em; border: 1px solid var(--border); white-space: nowrap; }
+.lbs-table:not(.lbs-table-silent) td { padding: 0.5em 1em; border: 1px solid var(--border); }
 .lbs-table:not(.lbs-table-silent) thead th { background: var(--surface); }
 
 /* Details */
@@ -115,6 +115,8 @@ a:hover { text-decoration: underline; }
 .lbs-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9em; }
 
 @media (max-width: 700px) {
+  #content { font-size: 0.9em; }
+
   .lbs-table-silent,
   .lbs-table-silent tbody,
   .lbs-table-silent tr,
