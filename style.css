@@ -102,10 +102,11 @@ a:hover { text-decoration: underline; }
 .lbs-table-silent td:last-child { padding-right: 0; }
 
 /* Table */
-.lbs-table:not(.lbs-table-silent) { border-collapse: collapse; margin: 1em 0; }
+.lbs-table:not(.lbs-table-silent) { border-collapse: collapse; margin: 1em 0; width: 100%; }
 .lbs-table:not(.lbs-table-silent) th,
 .lbs-table:not(.lbs-table-silent) td { padding: 0.5em 1em; border: 1px solid var(--border); }
 .lbs-table:not(.lbs-table-silent) thead th { background: var(--surface); }
+.lbs-table:not(.lbs-table-silent) td[rowspan] { background: var(--surface); white-space: nowrap; width: 1%; }
 
 /* Details */
 .lbs-details { margin: 1em 0; border: 1px solid var(--border); border-radius: 6px; padding: 0.5em 1em; background: var(--surface); }
