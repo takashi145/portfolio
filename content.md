@@ -21,7 +21,7 @@
 プログラミングを趣味として楽しんでいます。
 気になった技術を触りながら、少しずつできることを増やしています。
 
-- [GitHub](https://github.com)
+- [GitHub](https://github.com/takashi145)
 
 :::
 
