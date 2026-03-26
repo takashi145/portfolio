@@ -1,5 +1,7 @@
 :::header
 ポートフォリオ
+
+[自己紹介](#about) · [経歴](#history) · [スキル](#skills) · [資格・検定](#certifications) · [制作実績](#works)
 :::
 
 ~ | | |
@@ -14,7 +16,7 @@
 
 :::warp prof-text
 
-# takashi145
+# takashi145 {#about}
 
 **駆け出しプログラマー**
 
