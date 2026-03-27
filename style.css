@@ -118,6 +118,8 @@ a:hover { text-decoration: underline; }
 @media (max-width: 700px) {
   #content { font-size: 0.9em; }
 
+  .lbs-table:not(.lbs-table-silent) td[rowspan] { white-space: normal; width: auto; }
+
   .lbs-table-silent,
   .lbs-table-silent tbody,
   .lbs-table-silent tr,
